@@ -1,0 +1,100 @@
+
+body {
+    background-image: url('backgroung.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('cyber room.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 0 5px;
+    position: relative; /* Changed to relative for proper positioning */
+    width: 100%;
+    height: 50px;
+    text-align: center; /* Center text in the banner */
+}
+h1 {
+    color: rgb(1, 6, 10);
+    font-size: 50px;
+    font-style: italic;
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    color: rgb(1, 8, 14);
+    font-style: italic;
+    font-size: 20px;
+}
+p1 {
+    color: rgb(224, 217, 217);
+}
+.nav {
+    position: absolute;
+    top: 10px; /* Adjusted for better visibility */
+    right: 10px; /* Adjusted for better visibility */
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size: 15px;
+    font-style: oblique;
+    color: rgb(224, 217, 217);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav li a:hover {
+    color: rgb(42, 39, 223);
+    transition: all 0.4s ease 0%;
+}
+.container {
+    max-width: 500px; /* Limit the width of the content */
+    margin: auto; /* Center the container */
+    padding: 50px; /* Add padding for spacing */
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: rgb(243, 14, 174); /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links bold */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer {
+    color: rgb(205, 205, 235);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px 0; /* Add some padding for better spacing */
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
